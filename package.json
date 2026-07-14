@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-reaction-backend",
+  "version": "1.0.0",
+  "description": "Tiny backend that stores emoji reaction counts for Rohit Jadhav's portfolio, shared across all visitors/devices.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
